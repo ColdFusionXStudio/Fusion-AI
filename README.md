@@ -10,6 +10,25 @@ This repository is provided for educational and reference purposes. You are welc
 If you use a significant portion of Fusion AI as a reference while developing your own on-device AI system, please provide appropriate credit to the Fusion AI project.
 
 
+# Versions
+
+Fusion AI does not have one universal version that every app uses.
+
+Instead, every app includes its own version of Fusion AI with only the features it needs. This keeps apps lightweight, faster, and easier to maintain. Features that are never used are simply left out instead of being included in every application.
+
+For example:
+
+#### - Play Music — Fusion AI 1.2.0
+#### - MemeBoard — Fusion AI 1.1.0
+
+These version numbers are independent of each other. A higher version number does not always mean another app is "behind." It simply means that app has a different set of Fusion AI features or improvements.
+
+Fusion AI is not a cloud-based AI model or an online service running on a server. Every app has its own built-in copy of Fusion AI that runs entirely on the user's device. Because each app is designed for different tasks, every implementation of Fusion AI is slightly different.
+
+## Why is it designed this way?
+
+Fusion AI is designed to be modular instead of one large AI package. This allows each application to include only the features it actually needs, reducing app size, improving performance, and avoiding unnecessary background processes. It also makes it easier to add new AI features to individual apps without requiring every other app to update.
+
 #### No license is granted. All rights reserved.
 
 
